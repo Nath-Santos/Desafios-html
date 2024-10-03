@@ -5,17 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário com Validação</title>
     
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        .error {
-            color: red;
-            font-size: 0.9em;
-        }
-</head>
-<body>
-
     <h1>Formulário de Cadastro</h1>
     <form id="cadastroForm" onsubmit="return validarFormulario()">
         <div>
@@ -38,7 +27,7 @@
 
     <script>
         function validarFormulario() {
-            // Limpar mensagens de erro
+        
             document.getElementById('errorNome').textContent = '';
             document.getElementById('errorEmail').textContent = '';
             document.getElementById('errorSenha').textContent = '';
