@@ -6,7 +6,7 @@
     <title>Imagem de Fundo</title>
     <style>
         body {
-            background-repeat: url('5.png');
+        background-repeat: no-repeat ('5.png');
         }
     </style>
 
