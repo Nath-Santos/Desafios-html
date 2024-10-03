@@ -1,14 +1,25 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Imagem de Fundo Sem Repetir</title>
+    <title>Harry Potter</title>
     <style>
-       body {
-     background-image: url("2.jpeg");
+        body {
+            background-image: url('2.jpeg');
+            background-size: cover;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
         }
     </style>
+</head>
+<body>
+    <h1>Bem-vindo ao Mundo de Harry Potter!</h1>
+    <p>Delve no universo mágico!</p>
+</body>
+</html>
+
 
 
 <style>
