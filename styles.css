@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Imagem de Fundo Sem Repetir</title>
     <style>
-        body {
-            background-image: url('2.jpeg'); 
+       section {
+     background-image: url("5.png");
         }
     </style>
 
@@ -26,14 +26,14 @@
 
 <table>
   <tr>
-    <th>Produto nÂº 1</th>
-    <th>Produto nÂº 2</th>
-    <th>Produto nÂº 3</th>
-    <th>Produto nÂº 4</th>
+    <th>Produto nº 1</th>
+    <th>Produto nº 2</th>
+    <th>Produto nº 3</th>
+    <th>Produto nº 4</th>
   </tr>
   <tr>
     <td>Bola</td>
-    <td>RaÃ§Ã£o Premium/td>
+    <td>Ração Premium/td>
     <td>Shampoo/td>
     <td>Condicionador/td>
   </tr>
