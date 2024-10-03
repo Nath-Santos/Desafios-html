@@ -6,12 +6,7 @@
      <title>Imagem de Fundo Sem Repetir</title>
     <style>
         body {
-            background-image: url('5.png'); /* Caminho da imagem */
-            background-repeat: no-repeat; /* Não repetir a imagem */
-            background-size: cover; /* Cobrir toda a área */
-            background-position: center; /* Centralizar a imagem */
-            height: 100vh; /* Altura total da tela */
-            margin: 0; /* Remover margens */
+            background-image: url('5.png'); 
         }
     </style>
 
