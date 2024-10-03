@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagem de Fundo</title>
+     <title>Imagem de Fundo Sem Repetir</title>
     <style>
         body {
-        background-repeat: no-repeat ('5.png');
+            background-image: url('5.png'); /* Caminho da imagem */
+            background-repeat: no-repeat; /* Não repetir a imagem */
+            background-size: cover; /* Cobrir toda a área */
+            background-position: center; /* Centralizar a imagem */
+            height: 100vh; /* Altura total da tela */
+            margin: 0; /* Remover margens */
         }
     </style>
 
